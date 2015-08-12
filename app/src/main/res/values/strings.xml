@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--calculdora Strings -->
+    <!--Primer activity-->
+    <string name ="txtCalculadora">Calculadora</string>
+
+    <!--Botones-->
+    <string name="txbtnCero">0</string>
+    <string name="txbtnUno">1</string>
+    <string name="txbtnDos">2</string>
+    <string name="txbtnTres">3</string>
+    <string name="txbtnCuatro">4</string>
+    <string name="txbtnCinco">5</string>
+    <string name="txbtnSeis">6</string>
+    <string name="txbtnSiete">7</string>
+    <string name="txbtnOcho">8</string>
+    <string name="txbtnNueve">9</string>
+    <string name="txbtnAC">AC</string>
+    <string name="txbtnCE">CE</string>
+    <string name="txbtnSuma">+</string>
+    <string name="txbtnResta">-</string>
+    <string name="txbtnMultiplicacion">x</string>
+    <string name="txbtnDivision">÷</string>
+    <string name="txbtnIgual">=</string>
+
+
+</resources>
