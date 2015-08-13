@@ -53,43 +53,21 @@ public class MainActivity extends AppCompatActivity {
     public void onClickSuma(View miView)
     {
         operador="+";
-        if(onClickOperacionCapturaNumero1(miView)!= 0){
-            numero1 = numero1+numero2;
-            TextView tv = (TextView) findViewById(R.id.textView2) ;
-            tv.setText("");
-
-    }
         onClickOperacionCapturaNumero1(miView);
     }
     public void onClickResta(View miView)
     {
         operador="-";
-        if(onClickOperacionCapturaNumero1(miView)!= 0){
-            numero1 = numero1-numero2;
-            TextView tv = (TextView) findViewById(R.id.textView2) ;
-            tv.setText("");
-        }
-
         onClickOperacionCapturaNumero1(miView);
     }
     public void onClickMultiplicacion(View miView)
     {
         operador="x";
-        if(onClickOperacionCapturaNumero1(miView)!= 0){
-            numero1 = numero1*numero2;
-            TextView tv = (TextView) findViewById(R.id.textView2) ;
-            tv.setText("");
-        }
         onClickOperacionCapturaNumero1(miView);
     }
     public void onClickDivision(View miView)
     {
         operador="÷";
-        if(onClickOperacionCapturaNumero1(miView)!= 0){
-            numero1 = numero1/numero2;
-            TextView tv = (TextView) findViewById(R.id.textView2) ;
-            tv.setText("");
-        }
         onClickOperacionCapturaNumero1(miView);
     }
 
